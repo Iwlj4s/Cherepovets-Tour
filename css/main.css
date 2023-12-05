@@ -16,6 +16,12 @@ body{
 
 }
 
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+  }
+
 
 /* SCROLL BAR SETTINGS FOR CHROME/EDGE/SAFARI */
 body::-webkit-scrollbar {
@@ -83,40 +89,73 @@ body::-webkit-scrollbar {
     background-image: url(/img/bg_sovetskii.png);
 
     height: 100vh;
+
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
+    
 }
 
 .main-title{
     font-size: 5vh;
     font-weight: 800;
 
-    padding-top: 10vh;
+    padding-top: 7vh;
     text-align: center;
 }
 
 .main-subtitle{
-    font-size: 2vh;
+    font-size: 2.6vh;
     font-weight: 600;
 
-    padding-left: 24vh;
+    padding-top: 2vh;
+    text-align: center;
 
-    line-height: 4vh;
+    line-height: 5vh;
 }
 /*---------------------*/
 
 
 
-/* MINI MAP SETTINGS 
+/* MINI MAP SETTINGS */
+
+.mini-map{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+
+.mini-map-content{
+    
+    margin-right: 47vh;
+    
+}
+
 .mini-map-title{
     font-size: 4;
     font-weight: 800;
 
+    text-align: center;
+
+    padding-top: 3.5vh;
+}
+
+
+.mini-map-our-m{
+    position: absolute;
+    width: 42vh;
+    height: 90vh;
+
+    padding-top: 3vh;
 
 }
+
 .mini-map-frame{
     border-radius: 5px;
+
+    padding-top: 3vh;
+    margin-right: 25vh;
 
 }
 /*---------------------*/
