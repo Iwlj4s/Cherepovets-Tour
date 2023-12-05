@@ -1,0 +1,122 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.7vh;
+    background-color: #F2E9D1;
+
+    color:black;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+
+}
+
+
+/* SCROLL BAR SETTINGS FOR CHROME/EDGE/SAFARI */
+body::-webkit-scrollbar {
+    width: 2vh;               /* ширина всей полосы прокрутки */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #ccc5b0;        /* цвет зоны отслеживания */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #817f76;    /* цвет бегунка */
+    border-radius: 20px;       /* округлось бегунка */
+    border: 0.1vh solid #ccc5b0;  /* отступ вокруг бегунка */
+  }
+
+
+/* HEADER SETTINGS */
+.header{
+    background-color: #817f76;
+    border-radius: 4px;
+}
+
+.header-top{
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+/* Header Logo */
+.header-top-logo{
+    margin-right: 100vh;
+    display: flex;
+}
+
+.header-top-img{
+    width: 10vh;
+    height: 10vh;
+    
+}
+
+.header-top-title{
+    font-size: 3vh;
+    font-weight: 800;
+    margin-top: 3.5vh;
+    padding-left: 3vh;
+}
+
+/*---------------------*/
+
+.nav-link{
+    color: black;
+    margin-right: 3vh;
+
+    font-weight: 700;
+}
+
+/*---------------------*/
+
+
+
+/* MAIN BLOCK SETTINGS */
+.main{
+    background-image: url(/img/bg_sovetskii.png);
+
+    height: 100vh;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.main-title{
+    font-size: 5vh;
+    font-weight: 800;
+
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.main-subtitle{
+    font-size: 2vh;
+    font-weight: 600;
+
+    padding-left: 24vh;
+
+    line-height: 4vh;
+}
+/*---------------------*/
+
+
+
+/* MINI MAP SETTINGS 
+.mini-map-title{
+    font-size: 4;
+    font-weight: 800;
+
+
+}
+.mini-map-frame{
+    border-radius: 5px;
+
+}
+/*---------------------*/
