@@ -45,6 +45,15 @@ body::-webkit-scrollbar {
   }
 
 
+  /* SELECTION SETTINGS */
+  ::selection {
+    background: #f5f1e7; /* Safari */
+    }
+    ::-moz-selection {
+    background: #f5f1e7; /* Firefox */
+    }
+
+
 /* HEADER SETTINGS */
 .header{
     background-color: #817f76;
@@ -176,7 +185,6 @@ body::-webkit-scrollbar {
 }
 
 .mini-map-frame{
-    border-radius: 5px;
 
     width:50vh;
     height: 89.5vh;
@@ -190,3 +198,130 @@ body::-webkit-scrollbar {
     height: 89.5vh;
 }
 /*---------------------*/
+
+
+/* ------- MAP ------- */
+
+/* MAP */
+.map{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+
+.map-title{
+    padding-top: 2vh;
+
+    text-align: center;
+}
+
+.map-content{
+    padding-top: 2vh;  
+}
+
+.main-map-frame{
+    width: 150vh;
+    height: 81.1vh;
+}
+
+
+/* ------- INFO------- */
+
+
+.info-main{
+    position: relative;
+}
+
+.info-main-title {
+    padding-top: 3vh;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.info-place{
+    position: relative;
+    padding-top: 4vh;
+}
+
+
+.info-place-title {
+    text-align: center;
+    font-size: 3rem; 
+}
+
+.info-place-info {
+    padding-top: 1rem; 
+    margin-left: 12vh;
+    font-weight: 500;
+}
+
+.info-place-bw{
+    text-align: center;
+    padding-top: 3vh;
+}
+
+/* Basic IMG */
+.basic-info-img{
+    display: block;
+
+    border-radius: 5px;
+
+    width: 80vh;
+    height: 55vh;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 2vh;
+}
+
+
+/* SLIDER */
+.slider {
+    display: flex;
+
+    justify-content: center; 
+    align-items: center; 
+    
+    margin: 0 auto;
+    margin-top: 2vh;
+    
+    width: 95vh;
+    height: 55vh;
+
+    position: relative;
+    overflow: hidden;
+  }
+
+.slider-img {
+    width: 80vh;
+    height: 55vh;
+
+    margin: 0;
+
+    position: static;
+
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slider-img.active{
+    opacity: 1;
+}
+
+.slider img{
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.slider .prev{
+    left: -1vh;
+}
+
+.slider .next{
+    right: -1vh;
+}
