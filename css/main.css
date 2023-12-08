@@ -31,7 +31,7 @@ img {
 
 /* SCROLL BAR SETTINGS FOR CHROME/EDGE/SAFARI */
 body::-webkit-scrollbar {
-    width: 2vh;               /* ширина всей полосы прокрутки */
+    width: 1.2vh;               /* ширина всей полосы прокрутки */
   }
   
   body::-webkit-scrollbar-track {
@@ -217,7 +217,7 @@ body::-webkit-scrollbar {
 }
 
 .map-content{
-    padding-top: 2vh;  
+    padding-top: 1vh;  
 }
 
 .main-map-frame{
@@ -225,10 +225,15 @@ body::-webkit-scrollbar {
     height: 70vh;
 }
 
-.main-map-subtitle{
+.main-map-info{
     padding-top: 1rem; 
     text-align: center;
     font-weight: 600;
+}
+
+.main-map-subtitle{
+    padding-top: 1vh; 
+    margin-left: 2vh;
 }
 
 
@@ -242,7 +247,7 @@ body::-webkit-scrollbar {
 .info-main-title {
     padding-top: 3vh;
     text-align: center;
-    font-size: 4rem;
+    font-size: 5vh;
 }
 
 .info-place{
@@ -253,7 +258,7 @@ body::-webkit-scrollbar {
 
 .info-place-title {
     text-align: center;
-    font-size: 3rem; 
+    font-size: 4vh; 
 }
 
 .info-place-info {
@@ -280,6 +285,8 @@ body::-webkit-scrollbar {
     margin-right: auto;
 
     padding-top: 2vh;
+    
+    margin-bottom: 5vh;
 }
 
 
@@ -298,6 +305,8 @@ body::-webkit-scrollbar {
 
     position: relative;
     overflow: hidden;
+
+    margin-bottom: 3vh;
   }
 
 .slider-img {
