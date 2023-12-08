@@ -171,7 +171,7 @@ body::-webkit-scrollbar {
 
     text-align: center;
 
-    padding-top: 3.5vh;
+    padding-top: 5.4vh;
 }
 
 
@@ -221,8 +221,14 @@ body::-webkit-scrollbar {
 }
 
 .main-map-frame{
-    width: 150vh;
-    height: 81.1vh;
+    width: 120vh;
+    height: 70vh;
+}
+
+.main-map-subtitle{
+    padding-top: 1rem; 
+    text-align: center;
+    font-weight: 600;
 }
 
 
