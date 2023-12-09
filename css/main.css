@@ -340,3 +340,120 @@ body::-webkit-scrollbar {
 .slider .next{
     right: -1vh;
 }
+
+
+/* CONTACT SETTINGS */
+.card {
+    width: 50vh;
+    height: 90vh;
+
+    cursor: pointer;
+
+
+    margin-right: 17vh;
+    float: right;
+
+  }
+  
+  /* Определяем стили для внутреннего контейнера карточки (card-inner) */
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s; /* Эффект переворота */
+  }
+  
+  /* Определяем стили для лицевой и обратной сторон карточки (card-front и card-back) */
+  .card-front,
+  .card-back {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    backface-visibility: hidden;
+  }
+  
+  
+  .card-back {
+    transform: rotateY(180deg); 
+  }
+  
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+
+/* Contact with us*/
+.contact{
+    position: relative;
+}
+
+.contact-title{
+    padding-top: 3vh;
+    text-align: center;
+    font-size: 5vh;
+}
+
+.contact-form{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    padding-top: 3.3vh;
+    margin-left: 14vh;
+
+    width: 20vh;
+    height: 5vh;
+
+}
+
+.contact-form-form{
+    width: 100%;
+    height: 100%;
+
+}
+
+.feedback-input{
+    color: #352526;
+
+    font-family: 'Triod Postnaja';
+    font-size: 2vh;
+
+    line-height: 0.2vh;
+
+    height: 6vh;
+    width: 30vh;
+
+    background-color: #F2E9D1;
+
+    padding: 3vh;
+    margin-bottom: 3vh;
+
+    border: 0.5vh solid #352526;
+    border-bottom: 0.5vh solid #352526;
+}
+
+.btn-submit{
+    width: 20vh;
+    height: 30vh;
+
+    border: 0px solid transparent;
+
+    cursor: pointer;
+
+    background-color: #352526;
+    color: #F2E9D1;
+
+    font-size: 2vh;
+    transition: all 0.3s;
+}
+
+.btn-submit:hover{
+    background-color: #F2E9D1;
+    color: #352526 ;
+    border: 0.6vh solid #352526;
+}
