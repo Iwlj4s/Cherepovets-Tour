@@ -335,12 +335,13 @@ body::-webkit-scrollbar {
 
 .slider .prev{
     left: -1vh;
+    cursor: pointer;
 }
 
 .slider .next{
     right: -1vh;
+    cursor: pointer;
 }
-
 
 /* CONTACT SETTINGS */
 .card {
