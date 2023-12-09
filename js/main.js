@@ -2,7 +2,7 @@ ymaps.ready(function () {
     // Карта
     var main_map = new ymaps.Map('main-map', {
         center: [59.089255, 37.919518],
-        zoom: 15,
+        zoom: 14,
         controls: ['zoomControl', 'typeSelector', 'fullscreenControl']
     });
 
