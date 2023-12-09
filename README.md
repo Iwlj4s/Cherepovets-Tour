@@ -21,7 +21,7 @@
 <H3 id="build_with"> Использовано при создании: </H3>
 
 * <a href="https://yandex.ru/maps-api/products/js-api">API Яндекс Карты</a>
-* <a href=" https://www.qrcode-monkey.com/ru/">Создание Qr кода</a>
+* <a href="https://www.qrcode-monkey.com/ru/">Создание Qr кода</a>
 
 <H2 id="illustration"> Иллюстрации </H2>
 
