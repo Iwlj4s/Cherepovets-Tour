@@ -22,7 +22,7 @@
 
 * <a href="https://yandex.ru/maps-api/products/js-api">API Яндекс Карты</a>
 
-<H2 id="illustration"> Illustration </H2>
+<H2 id="illustration"> Иллюстрации </H2>
 
 <img src="git/illustration1.png" alt="img1" width="800" height="500">
 
