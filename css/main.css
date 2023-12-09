@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Triod Postnaja';
-    src: url(fonts/TriodPostnaja.ttf);
+    src: url(../fonts/TriodPostnaja.ttf);
 }
 
 
@@ -119,7 +119,7 @@ body::-webkit-scrollbar {
 
 /* MAIN BLOCK SETTINGS */
 .main{
-    background-image: url(img/bg_sovetskii.png);
+    background-image: url(../img/bg_sovetskii.png);
 
     height: 100vh;
 
