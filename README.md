@@ -4,9 +4,9 @@
   <summary>Содержание</summary>
   <ol >
     <li >
-      <a href="#info">О проекте </a>
+      <a href="#info">О Проекте</a>
       <ul>
-        <li><a href="#build_with">Использовано при создании</a></li>
+        <li><a href="#build_with">Использовалось при создании</a></li>
       </ul>
     </li>
     <li><a href="#illustration">Иллюстрации</a></li>
@@ -24,23 +24,23 @@
 
 <H2 id="illustration"> Illustration </H2>
 
-<img src="git/illustration1.png" alt="img1" width="900" height="700">
+<img src="git/illustration1.png" alt="img1" width="800" height="500">
 
-<img src="git/illustration2.png" alt="img2" width="900" height="700">
+<img src="git/illustration2.png" alt="img2" width="800" height="500">
 
-<img src="git/illustration3.png" alt="img3" width="900" height="700">
+<img src="git/illustration3.png" alt="img3" width="800" height="500">
 
-<img src="git/illustration4.png" alt="img3" width="900" height="700">
+<img src="git/illustration4.png" alt="img3" width="800" height="500">
 
-<img src="git/illustration5.png" alt="img3" width="900" height="700">
+<img src="git/illustration5.png" alt="img3" width="800" height="500">
 
-<img src="git/illustration6.png" alt="img3" width="900" height="700">
+<img src="git/illustration6.png" alt="img3" width="800" height="500">
 
-<img src="git/illustration7.png" alt="img3" width="900" height="700">
+<img src="git/illustration7.png" alt="img3" width="800" height="500">
 
-<img src="git/illustration8.png" alt="img3" width="900" height="700">
+<img src="git/illustration8.png" alt="img3" width="800" height="500">
 
-<img src="git/illustration9.png" alt="img3" width="900" height="700">
+<img src="git/illustration9.png" alt="img3" width="800" height="500">
 
 
 <H2 id="install"> Использование </H2>
